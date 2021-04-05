@@ -1,0 +1,15 @@
+.deleteButton {
+  background-color: #ef4444;
+}
+
+.deleteButton:hover {
+  background-color: rgb(240, 82, 82);
+}
+
+.secondaryButton {
+  background-color: #4b5563;
+}
+
+.secondaryButton:hover {
+  background-color: rgb(91, 102, 117);
+}

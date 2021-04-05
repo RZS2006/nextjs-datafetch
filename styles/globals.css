@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(245, 245, 245);
+  font-family: "Inter", sans-serif;
+  color: #202020;
+  min-height: 100vh;
+}
+
+button,
+input,
+textarea {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  color: #202020;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 1200px;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  margin: 1rem 0;
+}
+
+h3 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0.75rem 0;
+}
+
+small {
+  font-size: 0.825rem;
+  line-height: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.button {
+  border: none;
+  padding: 0.5rem 0.75rem;
+  margin: 1rem 0.5rem 1rem 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 1000px;
+  cursor: pointer;
+  background-color: #3b82f6;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #479aff;
+  transition: 200ms;
+}
+
+.link {
+  cursor: pointer;
+  border-bottom: #3b82f6 1px solid;
+  color: #3b82f6;
+  display: inline-block;
+}
+
+.link-small {
+  margin: 0.5rem 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 4px;
+  letter-spacing: 0.05em;
+}
+
+.link-regular {
+  padding-bottom: 2px;
+}
+
+.link:hover {
+  color: #479aff;
+  border-bottom-color: #479aff;
+  transition: 200ms;
+}
+
+.list-item {
+  margin-bottom: 1.5rem;
+}
+
+.list-item:last-child {
+  margin-bottom: 0;
+}
